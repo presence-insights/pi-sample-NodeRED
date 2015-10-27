@@ -20,7 +20,7 @@ Select **OK** and place the new nodes in your workspace. Hit the red **Deploy** 
 
 [This guide](https://presenceinsights.ibmcloud.com/pidocs/configure/subscriptions) will guide you in setting up a subscription in Presence Insights. Before clicking **OK** make sure the subscriptionpopup box has the following configuration 
 
-![subscription](subscription.png =500x454) 
+<img src="subscription.jpg" style="width: 500px; height: 454px"/>
 
 where the string `Node-RED-url` is replaced by the url you set up for your Node-RED app.
 
@@ -40,7 +40,7 @@ To test this, remove all the code from the **return** node and replace it with t
 
 This is just one example of outputting events. The following image shows all the data that a Presence Insights subscription will output. 
 
-![Output](json.png =500x1187)
+<img src="json.jpg" style="width: 500px; height: 1187px"/>
 
 Appending the any of those options to the string `msg.payload.` will add that item to the event output. For example, to see only the floor the device is on, use the code 
 	
