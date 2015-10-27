@@ -4,7 +4,7 @@
 
 Once Presence Insights has been fully set up it can be useful to see what data it is collecting. The best way to do this is to set up a subscription in Presence Insights and use that subscription to display all the events, such as a device entering, exiting, or dwelling in a zone, that it collects.
 
-The first step in setting up a subscription is to have an endpoint for that subscription. This guide will show you how to use Node-RED as that enpoint and how to have Node-RED display every Presence Insights event.
+The first step in setting up a subscription is to have an endpoint for that subscription. This guide will show you how to use Node-RED as that endpoint and how to have Node-RED display every Presence Insights event.
 
 ## Setting up Node-RED
 
@@ -18,7 +18,7 @@ Select **OK** and place the new nodes in your workspace. Hit the red **Deploy** 
 
 ## Setting up Presence Insights
 
-[This guide](https://presenceinsights.ibmcloud.com/pidocs/configure/subscriptions) will guide you in setting up a subscription in Presence Insights. Before clicking **OK** make sure the subscriptionpopup box has the following configuration 
+[This guide](https://presenceinsights.ibmcloud.com/pidocs/configure/subscriptions) will guide you in setting up a subscription in Presence Insights. Before clicking **OK** make sure the subscription popup box has the following configuration 
 
 <img src="subscription.png" width="500px" height="454px"/>
 
