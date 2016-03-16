@@ -20,7 +20,7 @@ Select **OK** and place the new nodes in your workspace. Hit the red **Deploy** 
 
 [This guide](https://presenceinsights.ibmcloud.com/pidocs/configure/subscriptions) will guide you in setting up a subscription in Presence Insights. Before clicking **OK** make sure the subscription popup box has the following configuration 
 
-<img src="subscription.png" width="500px" height="454px"/>
+<img src="subscription.png" width="650px" height="389px"/>
 
 where the string `Node-RED-url` is replaced by the url you set up for your Node-RED app.
 
